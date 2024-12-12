@@ -1,0 +1,42 @@
+[1.441s] Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[1.751s] running egg_info
+[1.752s] creating ../../build/example_urdf_robot/example_urdf_robot.egg-info
+[1.753s] writing ../../build/example_urdf_robot/example_urdf_robot.egg-info/PKG-INFO
+[1.753s] writing dependency_links to ../../build/example_urdf_robot/example_urdf_robot.egg-info/dependency_links.txt
+[1.754s] writing entry points to ../../build/example_urdf_robot/example_urdf_robot.egg-info/entry_points.txt
+[1.754s] writing requirements to ../../build/example_urdf_robot/example_urdf_robot.egg-info/requires.txt
+[1.754s] writing top-level names to ../../build/example_urdf_robot/example_urdf_robot.egg-info/top_level.txt
+[1.755s] writing manifest file '../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.758s] reading manifest file '../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.759s] adding license file 'LICENSE'
+[1.759s] writing manifest file '../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.760s] running build
+[1.760s] running build_py
+[1.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build
+[1.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build/lib
+[1.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build/lib/example_urdf_robot
+[1.761s] copying example_urdf_robot/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build/lib/example_urdf_robot
+[1.761s] running install
+[1.762s] running install_lib
+[1.762s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot
+[1.763s] copying /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build/lib/example_urdf_robot/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot
+[1.767s] byte-compiling /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot/__init__.py to __init__.cpython-310.pyc
+[1.767s] running install_data
+[1.767s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/ament_index
+[1.768s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/ament_index/resource_index
+[1.768s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/ament_index/resource_index/packages
+[1.769s] copying resource/example_urdf_robot -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/ament_index/resource_index/packages
+[1.769s] copying package.xml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot
+[1.769s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.770s] copying urdf/example_gazebo.xacro -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.770s] copying urdf/diff_drive.urdf.xacro -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.770s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/meshes
+[1.770s] copying meshes/Generic_100mm_lidar.stl -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/meshes
+[1.771s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/worlds
+[1.771s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/launch
+[1.771s] copying launch/sim_robot.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/launch
+[1.772s] running install_egg_info
+[1.775s] Copying ../../build/example_urdf_robot/example_urdf_robot.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot-0.0.0-py3.10.egg-info
+[1.783s] running install_scripts
+[1.819s] writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/install.log'
+[1.852s] Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/install.log --single-version-externally-managed install_data

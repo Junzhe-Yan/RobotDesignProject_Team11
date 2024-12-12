@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/gz_example_robot_description/gz_example_robot_description.egg-info
+writing ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/entry_points.txt
+writing requirements to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/requires.txt
+writing top-level names to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/top_level.txt
+writing manifest file '../../build/gz_example_robot_description/gz_example_robot_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/gz_example_robot_description/gz_example_robot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/gz_example_robot_description/gz_example_robot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build/lib
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build/lib/gz_example_robot_description
+copying gz_example_robot_description/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build/lib/gz_example_robot_description
+running install
+running install_lib
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description
+copying /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build/lib/gz_example_robot_description/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description
+byte-compiling /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/ament_index
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/ament_index/resource_index
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/ament_index/resource_index/packages
+copying resource/gz_example_robot_description -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/launch
+copying launch/sim_robot.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/launch
+copying launch/view_model.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/launch
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/urdf
+copying urdf/diff_drive_simulation.urdf.xacro -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/urdf
+copying urdf/diff_drive.urdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/urdf
+copying urdf/diff_drive_simulation copy.urdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/urdf
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/rviz
+copying rviz/view_model.rviz -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/rviz
+copying rviz/nav2.rviz -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/rviz
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/worlds
+copying worlds/tb3.sdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/worlds
+copying worlds/gemstone.sdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/worlds
+copying worlds/meshes/hexagon.dae -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/worlds
+copying worlds/meshes/wall.dae -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/worlds
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/config
+copying config/ekf_node.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/config
+copying config/diff_drive_control.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/config
+creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/maps
+copying maps/turtlebot3_world.pgm -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/maps
+running install_egg_info
+Copying ../../build/gz_example_robot_description/gz_example_robot_description.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log'

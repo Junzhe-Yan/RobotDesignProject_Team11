@@ -1,0 +1,432 @@
+[0.254s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.254s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77ee7aa46950>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77ee7abbed70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77ee7abbed70>>, mixin_verb=('build',))
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/example_gz_robot) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/launch) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/maps) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/resource) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/rviz) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/test) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/__MACOSX/example_gz_robot/worlds/meshes) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot/example_gz_robot) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_gz_robot/example_gz_robot' with type 'ros.ament_python' and name 'example_gz_robot'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_urdf_robot' with type 'ros.ament_python' and name 'example_urdf_robot'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_example_robot_description' with type 'ros.ament_python' and name 'gz_example_robot_description'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_demos' with type 'ros.ament_python' and name 'navigation_demos'
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mscrobotics2425laptop20/groot_ws/install
+[0.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install
+[0.536s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.572s] DEBUG:colcon.colcon_core.verb:Building package 'example_gz_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot', 'merge_install': False, 'path': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot', 'symlink_install': False, 'test_result_base': None}
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.572s] DEBUG:colcon.colcon_core.verb:Building package 'example_urdf_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot', 'merge_install': False, 'path': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot', 'symlink_install': False, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'gz_example_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description', 'merge_install': False, 'path': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos', 'merge_install': False, 'path': '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos', 'symlink_install': False, 'test_result_base': None}
+[0.573s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.575s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot' with build type 'ament_python'
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_gz_robot', 'ament_prefix_path')
+[0.579s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot' with build type 'ament_python'
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_robot', 'ament_prefix_path')
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description' with build type 'ament_python'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_example_robot_description', 'ament_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.617s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos' with build type 'ament_python'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_demos', 'ament_prefix_path')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.sh'
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot'
+[0.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.083s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot'
+[1.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description'
+[1.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos'
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[2.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log --single-version-externally-managed install_data
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log --single-version-externally-managed install_data
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[2.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_urdf_robot' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot' for CMake module files
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot' for CMake config files
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib'
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/bin'
+[2.449s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/pkgconfig/example_urdf_robot.pc'
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/lib/python3.10/site-packages'
+[2.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_robot', 'pythonpath')
+[2.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.ps1'
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.dsv'
+[2.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.sh'
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/bin'
+[2.452s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_urdf_robot)
+[2.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/package.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/package.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/package.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/package.bash'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/example_urdf_robot/package.zsh'
+[2.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_urdf_robot/share/colcon-core/packages/example_urdf_robot)
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos' for CMake module files
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log --single-version-externally-managed install_data
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos' for CMake config files
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/bin'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/pkgconfig/navigation_demos.pc'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages'
+[2.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_demos', 'pythonpath')
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/pythonpath.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/pythonpath.dsv'
+[2.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/hook/pythonpath.sh'
+[2.622s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/bin'
+[2.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_demos)
+[2.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/package.ps1'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/package.dsv'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/package.sh'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/package.bash'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/package.zsh'
+[2.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/colcon-core/packages/navigation_demos)
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description' for CMake module files
+[2.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log --single-version-externally-managed install_data
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description' for CMake config files
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/bin'
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/pkgconfig/gz_example_robot_description.pc'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages'
+[2.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_example_robot_description', 'pythonpath')
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.ps1'
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.dsv'
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.sh'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/bin'
+[2.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_example_robot_description)
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/package.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/package.dsv'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/package.sh'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/package.bash'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/gz_example_robot_description/package.zsh'
+[2.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/share/colcon-core/packages/gz_example_robot_description)
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot' for CMake module files
+[2.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot' for CMake config files
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/bin'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/pkgconfig/example_gz_robot.pc'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages'
+[2.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_gz_robot', 'pythonpath')
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.ps1'
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.dsv'
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.sh'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/bin'
+[2.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_gz_robot)
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/package.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/package.dsv'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/package.sh'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/package.bash'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/package.zsh'
+[2.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/colcon-core/packages/example_gz_robot)
+[2.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.833s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.839s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.840s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.866s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/local_setup.ps1'
+[2.869s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/_local_setup_util_ps1.py'
+[2.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/setup.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/local_setup.sh'
+[2.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/_local_setup_util_sh.py'
+[2.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/setup.sh'
+[2.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/local_setup.bash'
+[2.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/setup.bash'
+[2.880s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/local_setup.zsh'
+[2.882s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/setup.zsh'

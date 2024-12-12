@@ -1,0 +1,37 @@
+[0.617s] Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.757s] creating ../../build/navigation_demos/navigation_demos.egg-info
+[0.758s] writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+[0.758s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[0.759s] reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build
+[0.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build/lib
+[0.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build/lib/navigation_demos
+[0.761s] copying navigation_demos/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build/lib/navigation_demos
+[0.761s] running install
+[0.761s] running install_lib
+[0.761s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[0.762s] copying /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build/lib/navigation_demos/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[0.762s] byte-compiling /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/__init__.py to __init__.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/ament_index
+[0.762s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/ament_index/resource_index
+[0.762s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/ament_index/resource_index/packages
+[0.763s] copying resource/navigation_demos -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/ament_index/resource_index/packages
+[0.763s] copying package.xml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos
+[0.763s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/launch
+[0.763s] copying launch/nav_demo.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/launch
+[0.763s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/config
+[0.763s] copying config/bt_nav.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/config
+[0.763s] running install_egg_info
+[0.764s] Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.793s] writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log'
+[0.822s] Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/navigation_demos' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log --single-version-externally-managed install_data

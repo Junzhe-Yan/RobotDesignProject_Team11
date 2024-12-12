@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/controller.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/config
+copying config/planner.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/share/navigation_demos/config
+running install_egg_info
+removing '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/navigation_demos/install.log'

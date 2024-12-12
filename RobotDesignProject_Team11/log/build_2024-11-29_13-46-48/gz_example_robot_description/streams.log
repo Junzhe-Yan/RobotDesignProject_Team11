@@ -1,0 +1,20 @@
+[0.808s] Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log --single-version-externally-managed install_data
+[1.036s] running egg_info
+[1.037s] writing ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/PKG-INFO
+[1.042s] writing dependency_links to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/dependency_links.txt
+[1.042s] writing entry points to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/entry_points.txt
+[1.042s] writing requirements to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/requires.txt
+[1.043s] writing top-level names to ../../build/gz_example_robot_description/gz_example_robot_description.egg-info/top_level.txt
+[1.047s] reading manifest file '../../build/gz_example_robot_description/gz_example_robot_description.egg-info/SOURCES.txt'
+[1.049s] writing manifest file '../../build/gz_example_robot_description/gz_example_robot_description.egg-info/SOURCES.txt'
+[1.050s] running build
+[1.050s] running build_py
+[1.051s] running install
+[1.052s] running install_lib
+[1.058s] running install_data
+[1.061s] running install_egg_info
+[1.064s] removing '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.065s] Copying ../../build/gz_example_robot_description/gz_example_robot_description.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages/gz_example_robot_description-0.0.0-py3.10.egg-info
+[1.066s] running install_scripts
+[1.098s] writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log'
+[1.148s] Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/gz_example_robot_description' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/gz_example_robot_description/install.log --single-version-externally-managed install_data

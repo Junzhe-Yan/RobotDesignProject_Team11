@@ -1,0 +1,53 @@
+[1.604s] Invoking command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[2.163s] running egg_info
+[2.165s] creating ../../../build/example_gz_robot/example_gz_robot.egg-info
+[2.165s] writing ../../../build/example_gz_robot/example_gz_robot.egg-info/PKG-INFO
+[2.165s] writing dependency_links to ../../../build/example_gz_robot/example_gz_robot.egg-info/dependency_links.txt
+[2.166s] writing entry points to ../../../build/example_gz_robot/example_gz_robot.egg-info/entry_points.txt
+[2.166s] writing requirements to ../../../build/example_gz_robot/example_gz_robot.egg-info/requires.txt
+[2.167s] writing top-level names to ../../../build/example_gz_robot/example_gz_robot.egg-info/top_level.txt
+[2.167s] writing manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[2.171s] reading manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[2.172s] writing manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[2.173s] running build
+[2.173s] running build_py
+[2.173s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build
+[2.174s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build/lib
+[2.174s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build/lib/example_gz_robot
+[2.174s] copying example_gz_robot/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build/lib/example_gz_robot
+[2.174s] running install
+[2.174s] running install_lib
+[2.176s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot
+[2.176s] copying /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build/lib/example_gz_robot/__init__.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot
+[2.176s] byte-compiling /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot/__init__.py to __init__.cpython-310.pyc
+[2.177s] running install_data
+[2.177s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/ament_index
+[2.178s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/ament_index/resource_index
+[2.178s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/ament_index/resource_index/packages
+[2.178s] copying resource/example_gz_robot -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/ament_index/resource_index/packages
+[2.178s] copying package.xml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot
+[2.178s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.178s] copying launch/slam.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.178s] copying launch/sim_robot.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.178s] copying launch/map_server.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.179s] copying launch/localisation.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.179s] copying launch/simulation_bringup.launch.py -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/launch
+[2.179s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/rviz
+[2.180s] copying rviz/localisation.rviz -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/rviz
+[2.180s] copying rviz/slam.rviz -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/rviz
+[2.180s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.180s] copying worlds/tb3.sdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.180s] copying worlds/model.sdf -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.181s] copying worlds/meshes/hexagon.dae -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.181s] copying worlds/meshes/wall.dae -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.181s] copying worlds/custom_map.stl -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.182s] copying worlds/tester_map_2.stl -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/worlds
+[2.183s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/config
+[2.183s] creating /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/maps
+[2.184s] copying maps/turtlebot3_world.yaml -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/maps
+[2.184s] copying maps/turtlebot3_world.pgm -> /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/share/example_gz_robot/maps
+[2.184s] running install_egg_info
+[2.186s] Copying ../../../build/example_gz_robot/example_gz_robot.egg-info to /home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot-0.0.0-py3.10.egg-info
+[2.187s] running install_scripts
+[2.225s] writing list of installed files to '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/install.log'
+[2.249s] Invoked command in '/home/mscrobotics2425laptop20/ros2_tutorial_workspace/src/example_gz_robot/example_gz_robot' returned '0': PYTHONPATH=/home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop20/ros2_tutorial_workspace/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/build install --record /home/mscrobotics2425laptop20/ros2_tutorial_workspace/build/example_gz_robot/install.log --single-version-externally-managed install_data
