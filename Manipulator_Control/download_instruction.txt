@@ -1,0 +1,23 @@
+sudo apt install curl
+
+
+curl 'https://raw.githubusercontent.com/Interbotix/interbotix_ros_manipulators/main/interbotix_ros_xsarms/install/amd64/xsarm_amd64_install.sh' -o xsarm_amd64_install.sh
+chmod +x xsarm_amd64_install.sh
+./xsarm_amd64_install.sh -d humble
+
+
+ls /dev | grep ttyDXL
+
+
+
+source /opt/ros/$ROS_DISTRO/setup.bash
+source ~/interbotix_ws/install/setup.bash
+ros2 pkg list | grep interbotix
+
+
+ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=px150
+
+ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=px150
+
+ros2 launch interbotix_xsarm_joy xsarm_joy.launch.py robot_model:=px150
+
