@@ -1,4 +1,4 @@
-# Leo Rover Autonomous Robot Project – Team 11
+# Leo Rover Robot Design Project – Team 11
 
 This repository contains the design, implementation, and analysis of a Leo Rover-based autonomous robot. The system is capable of detecting, grasping, and sorting colored blocks into designated bins using vision and manipulation, fully autonomously.
 
