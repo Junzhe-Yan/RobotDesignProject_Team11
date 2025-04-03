@@ -99,7 +99,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         arguments=[
-            '-d' + os.path.join(get_package_share_directory(pkg_name), 'rviz', 'leo_sim.rviz')
+            '-d' + os.path.join(get_package_share_directory(pkg_name), 'rviz', 'nav2.rviz')
         ],
         output='screen'
     )
